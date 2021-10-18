@@ -19,4 +19,4 @@ if uploaded_file is not None:
     out = net.forward()
     index = np.argmax(out[0])
     label =  label_names[index].capitalize()
-    st.write("Prediction :", label)
+    st.write("Prediction: ", label)
